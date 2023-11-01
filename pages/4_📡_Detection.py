@@ -60,10 +60,7 @@ else:
     with tab1:
         kind_object = st.selectbox('Please select the kind of object detection do you want.',
                                    ['General Detection',
-                                    'Coal Detection',
-                                    'Seam Detection',
-                                    'Core Detection',
-                                    'Smart HSE'],
+                                    'Coal Detection'],
                                    key='kind-object-detection-1')
 
         if 'object-videos' in state.keys():
@@ -229,10 +226,7 @@ else:
     with tab2:
         kind_object = st.selectbox('Please select the kind of object detection do you want.',
                                    ['General Detection',
-                                    'Coal Detection',
-                                    'Seam Detection',
-                                    'Core Detection',
-                                    'Smart HSE'],
+                                    'Coal Detection'],
                                    key='kind-object-detection-2')
 
         if 'object-pictures' in state.keys():
