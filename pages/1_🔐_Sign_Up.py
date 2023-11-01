@@ -16,7 +16,7 @@ PATH = state['PATH']
 placeholder = st.empty()
 
 with placeholder.form('Sign Up'):
-    image = Image.open(f'{PATH}/data/images/logo_all.png')
+    image = Image.open(f'{PATH}/data/images/logo_cmind.jpg')
     st1, st2, st3 = st.columns(3)
 
     with st2:

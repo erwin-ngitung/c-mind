@@ -20,7 +20,7 @@ if 'PATH' not in state.keys():
 PATH = state['PATH']
 
 # Title
-image = Image.open(f'{PATH}/data/images/logo_all.png')
+image = Image.open(f'{PATH}/data/images/logo_cmind.jpg')
 st1, st2, st3 = st.columns(3)
 
 with st2:
@@ -106,8 +106,8 @@ else:
         # Download Button
         path_model_accuracy = f'{PATH}/reports/{path_object[kind_object]}'
         path_model_validation = f'{PATH}/results/{path_object[kind_object]}'
-        ppt_template1 = f'{PATH}/data/template/format_model-analysis_yeomine.pptx'
-        ppt_template2 = f'{PATH}/data/template/format_report-analysis_yeomine.pptx'
+        ppt_template1 = f'{PATH}/data/template/format_model-analysis_cmind.pptx'
+        ppt_template2 = f'{PATH}/data/template/format_report-analysis_cmind.pptx'
 
         prs1 = cp.model_analysis(path_model_validation, ppt_template1)
 
@@ -196,8 +196,8 @@ else:
             # Download Button
             path_model_accuracy = f'{PATH}/reports/{path_object[kind_object]}'
             path_model_validation = f'{PATH}/results/{path_object[kind_object]}'
-            ppt_template1 = f'{PATH}/data/template/format_model-analysis_yeomine.pptx'
-            ppt_template2 = f'{PATH}/data/template/format_report-analysis_yeomine.pptx'
+            ppt_template1 = f'{PATH}/data/template/format_model-analysis_cmind.pptx'
+            ppt_template2 = f'{PATH}/data/template/format_report-analysis_cmind.pptx'
 
             prs1 = cp.model_analysis(path_model_validation, ppt_template1)
 

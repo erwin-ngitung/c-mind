@@ -5,7 +5,7 @@ from pathlib import Path
 import logging
 
 st.set_page_config(
-    page_title="Home | SMD 1.0 App",
+    page_title="Home | C-MIND 1.0 App",
     page_icon="🏠",
 )
 
@@ -16,7 +16,7 @@ PATH = '.'
 state['login'] = False
 state['PATH'] = PATH
 
-image = Image.open(f'{PATH}/data/images/logo_all.png')
+image = Image.open(f'{PATH}/data/images/logo_cmind.jpg')
 st1, st2, st3 = st.columns(3)
 
 with st2:
