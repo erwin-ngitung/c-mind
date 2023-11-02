@@ -20,7 +20,7 @@ import torch
 from ultralytics import YOLO
 
 st.set_page_config(
-    page_title="Detection | SMD 1.0 App",
+    page_title="Detection | C-MIND 1.0 App",
     page_icon="📡",
 )
 

@@ -8,7 +8,7 @@ from ultralytics import YOLO
 from utils import make_zip_only, label_name
 
 st.set_page_config(
-    page_title="Training | SMD 1.0 App",
+    page_title="Training | C-MIND 1.0 App",
     page_icon="⚙️",
 )
 

@@ -8,7 +8,7 @@ from streamlit import session_state as state
 import streamlit as st
 
 st.set_page_config(
-    page_title="Validation | SMD 1.0 App",
+    page_title="Validation | C-MIND 1.0 App",
     page_icon="🔎‍",
 )
 

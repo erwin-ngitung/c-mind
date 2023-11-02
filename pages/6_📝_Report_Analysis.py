@@ -10,7 +10,7 @@ from io import BytesIO
 import shutil
 
 st.set_page_config(
-    page_title="Report Analysis | SMD 1.0 App",
+    page_title="Report Analysis | C-MIND 1.0 App",
     page_icon="📝",
 )
 
