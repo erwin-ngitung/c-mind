@@ -16,19 +16,10 @@ PATH = '.'
 state['login'] = False
 state['PATH'] = PATH
 
-image = Image.open(f'{PATH}/data/images/logo_cmind.png')
-st1, st2, st3 = st.columns(3)
-
-with st2:
-    st.image(image)
-
 st.markdown('<h3 style=\'text-align:center;\'>Welcome to C-MIND 1.0! 👋</h3>', unsafe_allow_html=True)
 
-st.markdown(
-    """
-    ### Want to learn more and purchase it?
-    - Check out [C-MIND 1.0 Website] (https://github.com/erwin-ngitung/c-mind-1.0)
-    - Jump into our [Documentation] (https://github.com/erwin-ngitung/c-mind-1.0)
-    - Ask a question in our software (salsabilsudharta0724@gmail.com)
-    """
-)
+image1 = Image.open(f'{PATH}/data/images/cover_1.png')
+image2 = Image.open(f'{PATH}/data/images/cover_2.png')
+
+st.image(image1)
+st.image(image2)
